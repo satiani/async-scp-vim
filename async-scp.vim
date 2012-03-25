@@ -10,7 +10,7 @@ if !exists('g:AsyncScpExecutable')
 endif
 
 if !exists('g:AsyncScpPath')
-  let g:AsyncScpPath = "~/development/Web/"
+  let g:AsyncScpPath = "~/code/"
 elseif strpart(g:AsyncScpPath, -1) != "/"
   let g:AsyncScpPath .= "/"
 endif
